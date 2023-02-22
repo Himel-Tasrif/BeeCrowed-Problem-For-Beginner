@@ -1,5 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    printf("himel");
+    int A,B,X;
+    scanf("%d %d",&A,&B);
+    //A = 10;
+    X = A+B;
+    printf("X = %d\n",X);
+    return 0;
 }
