@@ -1,8 +1,9 @@
-
 #include <stdio.h>
- 
-int main() 
+int main()
 {
-printf("Rani");
+    double R,A;
+    scanf("%lf",&R);
+    A = 3.14159*R*R;
+    printf("A=%.4lf\n",A);
     return 0;
 }
