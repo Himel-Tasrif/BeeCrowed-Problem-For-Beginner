@@ -1,6 +1,6 @@
 #include <stdio.h>
  
-int main() 
+int main()
 {
  int A,B,SOMA;
  scanf("%d %d",&A,&B);
