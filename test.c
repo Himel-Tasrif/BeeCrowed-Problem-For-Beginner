@@ -1,4 +1,5 @@
 /* Name: Tasrif Nur Himel*/
+// Merge Sort
 #include<stdio.h>
 void mergesort();
 void merge();
@@ -43,7 +44,7 @@ void mergesort(int arr[],int lb,int hb)
     }
 }
 
-//For Merge:                   
+//For Merge:
 void merge(int arr[],int lb,int mid,int hb)
 {
     int brr[100];
@@ -91,4 +92,4 @@ void merge(int arr[],int lb,int mid,int hb)
         {
           arr[i] = brr[i];
         }
-}                    
+}
